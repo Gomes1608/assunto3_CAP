@@ -24,4 +24,15 @@ public class FilaInt {
             fim = (fim+1)%N;
         }
     }
+
+    public int dequeue(){
+        int elem = dados[ini];
+        cont--;
+        ini = (ini+1)%N;
+        return elem;
+    }
+
+    public int first(){
+        return dados[ini];
+    }
 }
