@@ -1,4 +1,6 @@
-package filas;
+package testes;
+
+import filas.FilaInt;
 
 public class MainTeste {
     public static void main(String[] args) {
